@@ -1,0 +1,47 @@
+html {
+    background-image:url('/img/backGround.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+    width: 100%;
+}
+.item{
+    flex: 1;
+    font-size: 70px;
+    padding:10px;
+    border:3px solid #bbb0dc;
+    border-radius: 30px / 30px;
+    color: #db706c;
+    text-decoration: none;
+}
+.box{
+    margin:10%;
+}
+table{
+    display:table;
+    color:black;
+    border: 1px solid #bbb0dc;
+    text-align: center;
+    border-collapse: collapse;
+}
+.setting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float:right;
+    height: 100vh;
+    width: 50%;
+}
+th,td{
+    border: 1px solid #bbb0dc;
+    width:20%;
+}
+p{
+    color:black;
+    border: 1px solid #bbb0dc;
+}
+.check{
+    color:red;
+}
