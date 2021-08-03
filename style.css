@@ -48,7 +48,10 @@
     scroll-behavior: smooth;
   }
 }
-
+#solved{
+  width: 310px;
+  height: 150px;
+}
 input{
   -ms-transform: scale(1.5); /* IE */
   -webkit-transform: scale(1.5); /* Safari and Chrome */
@@ -10968,7 +10971,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #567ace;
 }
 
 .dev-icons {
